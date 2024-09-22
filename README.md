@@ -9,8 +9,7 @@
 | Задание 1 | * | 60 |
 | Задание 2 | * | 20 |
 | Задание 3 | * | 20 |
-
-Задание 4(дополнительно) *
+| Задание 4 | * |(дополнительно) |
 
 знак "*" - задание выполнено; знак "#" - задание не выполнено;
 
@@ -33,6 +32,8 @@
 - Написать программу Hello World на C# с запуском на Unity.
 - Задание 3.
 - Оформить отчет в виде документации на github (markdown-разметка).
+- Задание 4.
+- Какую сущность(и) мы бы могли "обучить" ML-Agent-ом для того, чтобы создать более качественный игровой опыт?
 - Выводы.
 - ✨Magic✨
 
@@ -47,44 +48,25 @@
 
 
 ## Задание 2
-### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
-
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
-
+### Написать программу Hello World на C# с запуском на Unity.
+- Запустить Unity и с помощью VSC вывести "Hello World" на экран
 ![alt text](https://github.com/MidoriKsai/Homework/blob/main/HelloWorld_unity.png)
 
 ## Задание 3
-### Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
+### Оформить отчет в виде документации на github (markdown-разметка).
 
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
+- оформлено
 
-```py
+## Задание 4
+###  Какую сущность(и) мы бы могли "обучить" ML-Agent-ом для того, чтобы создать более качественный игровой опыт?
 
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
+- [p
 
-```
+
 
 ## Выводы
 
-Абзац умных слов о том, что было сделано и что было узнано.
+Скачала нужно ПО, научилась запускать код, через нужные 
 
 | Plugin | README |
 | ------ | ------ |

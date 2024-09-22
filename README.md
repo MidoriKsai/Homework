@@ -43,7 +43,7 @@
 ### Написать программу Hello World на Python с запуском в Jupiter Notebook.
 - Запустить инструмент Jupyter Notebook с помощью Anaconda и написать вывод фразы "Hello World"
 
-
+![alt text](https://raw.githubusercontent.com/MidoriKsai/Homework/HelloWorld_jupyter.png)
 
 
 ## Задание 2

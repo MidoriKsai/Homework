@@ -51,12 +51,12 @@
 ## Задание 2
 ### Написать программу Hello World на C# с запуском на Unity.
 - Запустить Unity и с помощью VSC вывести "Hello World" на экран
-![alt text](https://github.com/MidoriKsai/Homework/blob/main/HelloWorld_unity.png)
+![Hello World Unity](https://github.com/MidoriKsai/Homework/blob/main/HelloWorld_unity.png)
 
 ## Задание 3
 ### Оформить отчет в виде документации на github (markdown-разметка).
 
-- оформлено
+  ![Github](https://github.com/MidoriKsai/Homework/blob/main/Github_hw.png)
 
 ## Задание 4
 ###  Какую сущность(и) мы бы могли "обучить" ML-Agent-ом для того, чтобы создать более качественный игровой опыт?
